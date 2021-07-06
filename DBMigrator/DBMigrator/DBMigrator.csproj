@@ -6,11 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Scripts\V2021.07.06.08.58.33_ThingsTableAndSeed.sql" />
+    <None Remove="Scripts\210706110257_ThingsTableAndSeed.sql" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Scripts\V2021.07.06.08.58.33_ThingsTableAndSeed.sql" />
+    <EmbeddedResource Include="Scripts\210706110257_ThingsTableAndSeed.sql" />
   </ItemGroup>
 
   <ItemGroup>
