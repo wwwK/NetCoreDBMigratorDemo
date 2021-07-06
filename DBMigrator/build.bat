@@ -1,2 +1,2 @@
 set mypath=%cd%
-dotnet build "%mypath%\DBMigrator.sln"
+dotnet build "%mypath%\DBMigrator\DBMigrator.sln"
