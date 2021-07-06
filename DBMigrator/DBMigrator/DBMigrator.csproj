@@ -6,18 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Scripts\210705121202_ThingsTableAndSeed.sql" />
-    <None Remove="Scripts\210705152553_ThingsSProc.sql" />
-    <None Remove="Scripts\210705154042_AddCreatdAtToThings.sql" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="Scripts\210705121202_ThingsTableAndSeed.sql" />
-    <EmbeddedResource Include="Scripts\210705152553_ThingsSProc.sql" />
-    <EmbeddedResource Include="Scripts\210705154042_AddCreatdAtToThings.sql" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="dbup" Version="4.5.0" />
     <PackageReference Include="dbup-consolescripts" Version="1.5.0" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
