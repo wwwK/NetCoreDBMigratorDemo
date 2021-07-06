@@ -7,10 +7,12 @@
 
   <ItemGroup>
     <None Remove="Scripts\210706110257_ThingsTableAndSeed.sql" />
+    <None Remove="Scripts\210706112125_ThingsSProc.sql" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Scripts\210706110257_ThingsTableAndSeed.sql" />
+    <EmbeddedResource Include="Scripts\210706112125_ThingsSProc.sql" />
   </ItemGroup>
 
   <ItemGroup>
