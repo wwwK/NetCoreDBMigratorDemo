@@ -6,6 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Scripts\V2021.07.06.08.58.33_ThingsTableAndSeed.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\V2021.07.06.08.58.33_ThingsTableAndSeed.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="dbup" Version="4.5.0" />
     <PackageReference Include="dbup-consolescripts" Version="1.5.0" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />

@@ -1,9 +1,5 @@
-/* ****************************************************************
- * Author: Chris
- * Description: ThingsTableAndSeed
- * ****************************************************************
- */
- IF EXISTS (SELECT * from sysobjects where name='dbo.Things')
+/* Migration Script 210706110257_ThingsTableAndSeed.sql */
+IF EXISTS (SELECT * from sysobjects where name='dbo.Things')
 	BEGIN
 		DROP TABLE [dbo].[Things]
 	END
