@@ -6,13 +6,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="dbup" Version="4.5.0" />
-    <PackageReference Include="dbup-consolescripts" Version="1.5.0" />
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <None Remove="Scripts\*" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Scripts\" />
+    <EmbeddedResource Include="Scripts\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dbup" Version="4.5.0" />
+    <PackageReference Include="dbup-consolescripts" Version="1.5.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
   </ItemGroup>
 
 </Project>

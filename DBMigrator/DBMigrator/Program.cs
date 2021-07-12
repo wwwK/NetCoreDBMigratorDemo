@@ -20,6 +20,8 @@ namespace DBMigrator
             I.P("DB Migrator Demo");
             I.P(await ExecuteDBUpAsync(await ProcessInputArgsAsync(args)) == 1 ? "Ok" : "Failed");
 
+            Console.ForegroundColor = ConsoleColor.White;
+
             if (!automation)
             {
                 I.P("Press any key to end...");
